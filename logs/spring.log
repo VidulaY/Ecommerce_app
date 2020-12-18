@@ -138,3 +138,29 @@ Verify the connector's configuration, identify and stop any process that's liste
 2020-12-17 19:55:16.389  INFO 2088 --- [main] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
 2020-12-17 19:55:16.403  INFO 2088 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2020-12-17 19:55:16.407  INFO 2088 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-12-17 20:01:42.084  INFO 10804 --- [main] com.example.demo.EcommerceApplication    : Starting EcommerceApplication on DESKTOP-07S313P with PID 10804 (started by Pinky in C:\Udacity\Java Developer\Projects\JDND-master\projects\P04-eCommerce Application)
+2020-12-17 20:01:42.087  INFO 10804 --- [main] com.example.demo.EcommerceApplication    : No active profile set, falling back to default profiles: default
+2020-12-17 20:01:42.772  INFO 10804 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-12-17 20:01:42.861  INFO 10804 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 78ms. Found 4 repository interfaces.
+2020-12-17 20:01:43.482  INFO 10804 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c6502739] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-17 20:01:43.864  INFO 10804 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-12-17 20:01:43.904  INFO 10804 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-17 20:01:43.905  INFO 10804 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2020-12-17 20:01:44.055  INFO 10804 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-17 20:01:44.055  INFO 10804 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1908 ms
+2020-12-17 20:01:44.292  INFO 10804 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-12-17 20:01:44.544  INFO 10804 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-12-17 20:01:44.614  INFO 10804 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-12-17 20:01:44.709  INFO 10804 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2020-12-17 20:01:44.711  INFO 10804 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-12-17 20:01:44.908  INFO 10804 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-12-17 20:01:45.070  INFO 10804 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-12-17 20:01:45.898  INFO 10804 --- [main] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@3355b8ff'
+2020-12-17 20:01:45.901  INFO 10804 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-17 20:01:46.563  WARN 10804 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-17 20:01:46.641  INFO 10804 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2ec156fb, org.springframework.security.web.context.SecurityContextPersistenceFilter@178c6261, org.springframework.security.web.header.HeaderWriterFilter@66fff42f, org.springframework.web.filter.CorsFilter@56d742ad, org.springframework.security.web.authentication.logout.LogoutFilter@29b4444a, com.example.demo.security.JWTAuthenticationFilter@75784062, com.example.demo.security.JWTAuthenticationVerficationFilter@5730b513, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2555a986, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@75adb1c0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@73e25780, org.springframework.security.web.session.SessionManagementFilter@32cde414, org.springframework.security.web.access.ExceptionTranslationFilter@783f5f71, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@22ab1b8a]
+2020-12-17 20:01:46.764  INFO 10804 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-17 20:01:47.005  INFO 10804 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-12-17 20:01:47.009  INFO 10804 --- [main] com.example.demo.EcommerceApplication    : Started EcommerceApplication in 5.299 seconds (JVM running for 6.491)
