@@ -1,0 +1,125 @@
+2020-12-16 13:49:14.564  INFO 16644 --- [main] c.e.demo.EcommerceApplicationTests       : Starting EcommerceApplicationTests on DESKTOP-07S313P with PID 16644 (started by Pinky in C:\Udacity\Java Developer\Projects\JDND-master\projects\P04-eCommerce Application\starter_code)
+2020-12-16 13:49:14.566  INFO 16644 --- [main] c.e.demo.EcommerceApplicationTests       : No active profile set, falling back to default profiles: default
+2020-12-16 13:49:15.310  INFO 16644 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-12-16 13:49:15.397  INFO 16644 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 74ms. Found 4 repository interfaces.
+2020-12-16 13:49:16.051  INFO 16644 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2cbc29a6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-16 13:49:16.332  INFO 16644 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-12-16 13:49:16.584  INFO 16644 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-12-16 13:49:16.692  INFO 16644 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-12-16 13:49:16.823  INFO 16644 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2020-12-16 13:49:16.829  INFO 16644 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-12-16 13:49:16.924  INFO 16644 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-12-16 13:49:17.306  INFO 16644 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-12-16 13:49:18.034  INFO 16644 --- [main] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@9de1b85'
+2020-12-16 13:49:18.037  INFO 16644 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-16 13:49:19.010  WARN 16644 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-16 13:49:19.186  INFO 16644 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1ee52741, org.springframework.security.web.context.SecurityContextPersistenceFilter@12478b4e, org.springframework.security.web.header.HeaderWriterFilter@5d67bf4d, org.springframework.web.filter.CorsFilter@2f5a092e, org.springframework.security.web.authentication.logout.LogoutFilter@5ca3acad, com.example.demo.security.JWTAuthenticationFilter@1640a6b5, com.example.demo.security.JWTAuthenticationVerficationFilter@70940cb8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5d373794, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3a012678, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@47fce2c4, org.springframework.security.web.session.SessionManagementFilter@40d04cf8, org.springframework.security.web.access.ExceptionTranslationFilter@5400db7e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7804a783]
+2020-12-16 13:49:19.709  INFO 16644 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-16 13:49:20.090  INFO 16644 --- [main] c.e.demo.EcommerceApplicationTests       : Started EcommerceApplicationTests in 5.901 seconds (JVM running for 7.872)
+2020-12-16 13:49:20.139  INFO 16644 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-16 13:49:20.142  INFO 16644 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-12-16 13:49:20.143  INFO 16644 --- [Thread-2] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-12-16 13:49:20.158  INFO 16644 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-12-16 13:49:20.161  INFO 16644 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-12-16 18:35:43.155  INFO 3116 --- [main] c.e.demo.EcommerceApplicationTests       : Starting EcommerceApplicationTests on DESKTOP-07S313P with PID 3116 (started by DESKTOP-07S313P$ in C:\Udacity\Java Developer\Projects\JDND-master\projects\P04-eCommerce Application\starter_code)
+2020-12-16 18:35:43.157  INFO 3116 --- [main] c.e.demo.EcommerceApplicationTests       : No active profile set, falling back to default profiles: default
+2020-12-16 18:35:43.855  INFO 3116 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-12-16 18:35:43.927  INFO 3116 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 64ms. Found 4 repository interfaces.
+2020-12-16 18:35:44.508  INFO 3116 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$43a17d03] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-16 18:35:44.771  INFO 3116 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-12-16 18:35:44.976  INFO 3116 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-12-16 18:35:45.074  INFO 3116 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-12-16 18:35:45.156  INFO 3116 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2020-12-16 18:35:45.158  INFO 3116 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-12-16 18:35:45.216  INFO 3116 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-12-16 18:35:45.517  INFO 3116 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-12-16 18:35:46.161  INFO 3116 --- [main] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@3f40568e'
+2020-12-16 18:35:46.164  INFO 3116 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-16 18:35:47.096  WARN 3116 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-16 18:35:47.273  INFO 3116 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7da1ef46, org.springframework.security.web.context.SecurityContextPersistenceFilter@1701beb3, org.springframework.security.web.header.HeaderWriterFilter@774189d0, org.springframework.web.filter.CorsFilter@740fccd2, org.springframework.security.web.authentication.logout.LogoutFilter@510bd87a, com.example.demo.security.JWTAuthenticationFilter@1ae23815, com.example.demo.security.JWTAuthenticationVerficationFilter@63ccb1b2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@15fd3088, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4fe3f9ef, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1165a952, org.springframework.security.web.session.SessionManagementFilter@2681185e, org.springframework.security.web.access.ExceptionTranslationFilter@64921450, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@782e0844]
+2020-12-16 18:35:47.846  INFO 3116 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-16 18:35:48.202  INFO 3116 --- [main] c.e.demo.EcommerceApplicationTests       : Started EcommerceApplicationTests in 5.367 seconds (JVM running for 8.687)
+2020-12-16 18:35:48.245  INFO 3116 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-16 18:35:48.248  INFO 3116 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-12-16 18:35:48.250  INFO 3116 --- [Thread-2] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-12-16 18:35:48.259  INFO 3116 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-12-16 18:35:48.264  INFO 3116 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-12-16 19:38:22.961  INFO 1480 --- [main] c.e.demo.EcommerceApplicationTests       : Starting EcommerceApplicationTests on DESKTOP-07S313P with PID 1480 (started by DESKTOP-07S313P$ in C:\Udacity\Java Developer\Projects\JDND-master\projects\P04-eCommerce Application\starter_code)
+2020-12-16 19:38:22.963  INFO 1480 --- [main] c.e.demo.EcommerceApplicationTests       : No active profile set, falling back to default profiles: default
+2020-12-16 19:38:23.686  INFO 1480 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-12-16 19:38:23.782  INFO 1480 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 83ms. Found 4 repository interfaces.
+2020-12-16 19:38:24.523  INFO 1480 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d2e7adf4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-16 19:38:24.755  INFO 1480 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-12-16 19:38:24.975  INFO 1480 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-12-16 19:38:25.061  INFO 1480 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-12-16 19:38:25.158  INFO 1480 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2020-12-16 19:38:25.159  INFO 1480 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-12-16 19:38:25.219  INFO 1480 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-12-16 19:38:25.549  INFO 1480 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-12-16 19:38:26.211  INFO 1480 --- [main] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@10f10230'
+2020-12-16 19:38:26.214  INFO 1480 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-16 19:38:27.046  WARN 1480 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-16 19:38:27.197  INFO 1480 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3c205259, org.springframework.security.web.context.SecurityContextPersistenceFilter@31de8099, org.springframework.security.web.header.HeaderWriterFilter@a84b6de, org.springframework.web.filter.CorsFilter@5bc40f5d, org.springframework.security.web.authentication.logout.LogoutFilter@2c86b0ea, com.example.demo.security.JWTAuthenticationFilter@20923380, com.example.demo.security.JWTAuthenticationVerficationFilter@5b2c41f9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@152d2a58, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@13ae87a6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6520625f, org.springframework.security.web.session.SessionManagementFilter@2119b989, org.springframework.security.web.access.ExceptionTranslationFilter@1e09c0b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@47f416d0]
+2020-12-16 19:38:27.636  INFO 1480 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-16 19:38:27.962  INFO 1480 --- [main] c.e.demo.EcommerceApplicationTests       : Started EcommerceApplicationTests in 5.318 seconds (JVM running for 6.939)
+2020-12-16 19:38:27.997  INFO 1480 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-16 19:38:28.000  INFO 1480 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-12-16 19:38:28.000  INFO 1480 --- [Thread-2] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-12-16 19:38:28.012  INFO 1480 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-12-16 19:38:28.015  INFO 1480 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-12-16 19:42:07.819  INFO 7804 --- [main] c.e.demo.EcommerceApplicationTests       : Starting EcommerceApplicationTests on DESKTOP-07S313P with PID 7804 (started by DESKTOP-07S313P$ in C:\Udacity\Java Developer\Projects\JDND-master\projects\P04-eCommerce Application\starter_code)
+2020-12-16 19:42:07.821  INFO 7804 --- [main] c.e.demo.EcommerceApplicationTests       : No active profile set, falling back to default profiles: default
+2020-12-16 19:42:08.451  INFO 7804 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-12-16 19:42:08.517  INFO 7804 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 57ms. Found 4 repository interfaces.
+2020-12-16 19:42:09.139  INFO 7804 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$cbb1911c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-16 19:42:09.385  INFO 7804 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-12-16 19:42:09.571  INFO 7804 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-12-16 19:42:09.663  INFO 7804 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-12-16 19:42:09.762  INFO 7804 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2020-12-16 19:42:09.765  INFO 7804 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-12-16 19:42:09.831  INFO 7804 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-12-16 19:42:10.139  INFO 7804 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-12-16 19:42:10.780  INFO 7804 --- [main] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@4b475742'
+2020-12-16 19:42:10.784  INFO 7804 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-16 19:42:11.634  WARN 7804 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-16 19:42:11.774  INFO 7804 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1ee52741, org.springframework.security.web.context.SecurityContextPersistenceFilter@7304ca87, org.springframework.security.web.header.HeaderWriterFilter@152d2a58, org.springframework.web.filter.CorsFilter@2f5a092e, org.springframework.security.web.authentication.logout.LogoutFilter@1477d4e6, com.example.demo.security.JWTAuthenticationFilter@1640a6b5, com.example.demo.security.JWTAuthenticationVerficationFilter@70940cb8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@774189d0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4c599679, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@47fce2c4, org.springframework.security.web.session.SessionManagementFilter@12478b4e, org.springframework.security.web.access.ExceptionTranslationFilter@73905dff, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7804a783]
+2020-12-16 19:42:12.225  INFO 7804 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-16 19:42:12.543  INFO 7804 --- [main] c.e.demo.EcommerceApplicationTests       : Started EcommerceApplicationTests in 5.036 seconds (JVM running for 6.432)
+2020-12-16 19:42:12.581  INFO 7804 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-16 19:42:12.584  INFO 7804 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-12-16 19:42:12.585  INFO 7804 --- [Thread-2] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-12-16 19:42:12.596  INFO 7804 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-12-16 19:42:12.599  INFO 7804 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-12-16 20:00:15.584  INFO 7624 --- [main] c.e.demo.EcommerceApplicationTests       : Starting EcommerceApplicationTests on DESKTOP-07S313P with PID 7624 (started by DESKTOP-07S313P$ in C:\Udacity\Java Developer\Projects\JDND-master\projects\P04-eCommerce Application\starter_code)
+2020-12-16 20:00:15.586  INFO 7624 --- [main] c.e.demo.EcommerceApplicationTests       : No active profile set, falling back to default profiles: default
+2020-12-16 20:00:16.442  INFO 7624 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-12-16 20:00:16.534  INFO 7624 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 84ms. Found 4 repository interfaces.
+2020-12-16 20:00:17.293  INFO 7624 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$237315c9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-16 20:00:17.587  INFO 7624 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-12-16 20:00:17.834  INFO 7624 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-12-16 20:00:17.953  INFO 7624 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-12-16 20:00:18.071  INFO 7624 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2020-12-16 20:00:18.073  INFO 7624 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-12-16 20:00:18.133  INFO 7624 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-12-16 20:00:18.533  INFO 7624 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-12-16 20:00:19.330  INFO 7624 --- [main] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@323c6f9c'
+2020-12-16 20:00:19.333  INFO 7624 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-16 20:00:20.395  WARN 7624 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-16 20:00:20.631  INFO 7624 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2f5a092e, org.springframework.security.web.context.SecurityContextPersistenceFilter@7c07023, org.springframework.security.web.header.HeaderWriterFilter@50b2ba2c, org.springframework.web.filter.CorsFilter@1640a6b5, org.springframework.security.web.authentication.logout.LogoutFilter@30b97fcf, com.example.demo.security.JWTAuthenticationFilter@70940cb8, com.example.demo.security.JWTAuthenticationVerficationFilter@47fce2c4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@22c4354d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@15fd3088, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3810806c, org.springframework.security.web.session.SessionManagementFilter@64921450, org.springframework.security.web.access.ExceptionTranslationFilter@5c0d3715, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@54ec8ab3]
+2020-12-16 20:00:21.231  INFO 7624 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-16 20:00:21.610  INFO 7624 --- [main] c.e.demo.EcommerceApplicationTests       : Started EcommerceApplicationTests in 6.426 seconds (JVM running for 8.363)
+2020-12-16 20:00:21.651  INFO 7624 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-16 20:00:21.659  INFO 7624 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-12-16 20:00:21.660  INFO 7624 --- [Thread-2] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-12-16 20:00:21.669  INFO 7624 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-12-16 20:00:21.674  INFO 7624 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
