@@ -9,6 +9,7 @@ import com.example.demo.model.persistence.repositories.OrderRepository;
 import com.example.demo.model.persistence.repositories.UserRepository;
 import org.junit.Before;
 import org.junit.Test;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 
 import java.math.BigDecimal;
@@ -52,6 +53,7 @@ public class OrderControllerTest {
         assertEquals(user, result.getUser());
     }
 
+
     @Test
     public void getOrdersForUserTest() throws Exception{
         Item item = TestUtils.createItem(2L,"item#1", "itemDescription", BigDecimal.ONE);
@@ -70,5 +72,7 @@ public class OrderControllerTest {
         List<UserOrder> result = response.getBody();
         assertNotNull( result);
     }
+
+
 
 }
